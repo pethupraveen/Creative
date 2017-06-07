@@ -36,6 +36,7 @@ body{
 .slider-area{
 	position: relative;
 }
+
 .slider-area::before{
 	background-color: #000;
 	content: "";
@@ -46,4 +47,21 @@ body{
 	top: 0;
 	width: 100%;
 	z-index: 1;
+}
+.carousel-control{	
+	background-color: #f9ad18;
+	color:#fff;
+	font-size: 60px;
+	height: 100px;
+	opacity: 0.37;
+	top: 50%;
+	width: 50px;
+	z-index: 2;
+}
+.carousel-control.left,	
+.carousel-control.right{	
+	z-index: 2;
+	background-image: none;
+	background-repeat: no-repeat;
+
 }
